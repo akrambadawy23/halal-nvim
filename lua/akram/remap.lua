@@ -14,3 +14,6 @@ vim.keymap.set("n", '<C-S-z>', vim.cmd.redo)
 --undo remap
 vim.keymap.set("i", '<C-z>', vim.cmd.undo) 
 vim.keymap.set("n", '<C-z>', vim.cmd.undo) 
+
+--THIS BREAKS ALL CTRL W CMDS (WINDOW COMMANDS)
+vim.keymap.set("n", '<C-w>', '<C-w>w')

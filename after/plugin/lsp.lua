@@ -1,5 +1,3 @@
-
-local cmp = require('cmp')
 vim.opt.signcolumn = 'yes'
 
 local lspconfig_defaults = require('lspconfig').util.default_config
