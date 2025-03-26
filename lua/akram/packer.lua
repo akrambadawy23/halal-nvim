@@ -33,4 +33,8 @@ use({
     -- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
   }
 })
+use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+}
   end)
